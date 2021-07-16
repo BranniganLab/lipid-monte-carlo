@@ -1,0 +1,15 @@
+void vprint(vector v);
+double dsign(double a, double b) ;
+void vclear(vector vect);
+void vmult(vector vr, vector v1, vector v2);
+void vresize(vector vr, vector v1, double length);
+void vunit(vector vr, vector v1);
+double vsquare(vector v1);
+double vdot(vector v1, vector v2);
+void vmult_scal(vector vr,vector v1,double coeff);
+void vsub(vector vr, vector v1, vector v2);
+void vadd(vector vr, vector v1, vector v2);
+void vcopy(vector hold, vector copy);
+double vdistance_periodic(vector v1, vector v2, vector box_length);
+double vdistance(vector v1, vector v2);
+void vsub_periodic(vector vr, vector v1, vector v2, vector box_length);
